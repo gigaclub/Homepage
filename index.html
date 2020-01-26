@@ -9,36 +9,87 @@
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
     <link href="style.css" rel="stylesheet"/>
+    <link href='favicon.ico' rel='icon' sizes="16x16" type='image/x-icon'/>
 
-    <title>GigaClub.net | Gaming-Server Netzwerk</title>
+    <title>GigaClub.net | Gaming-Server-Netzwerk</title>
 
 </head>
 
 <body>
 
-<nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand font-weight-bold" href="#">GigaClub.net</a>
-</nav>
-
-<div class="container bg-dark" style="margin-top: 15px;">
-    <div class="row linkbox" style="padding: 15px 0;">
-        <div class="col-sm justify-content-center align-self-center">
-            <a href="ts3server://GigaClub.net">
-                <div class="text-center links" id="tslink">
-                    Teamspeak
+<div id="wrapper">
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img alt="GigaClub.net" class="img-fluid" src="logo.png">
+        </a>
+    </nav>
+    <div class="content-container">
+        <div class="container bg-dark" style="margin-top: 15px;">
+            <div class="row linkbox" style="padding-top: 15px">
+                <div class="col-sm justify-content-center align-self-center">
+                    <a class="link" href="ts3server://GigaClub.net">
+                        <div class="text-center links" id="tslink">
+                            Teamspeak
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-        <div class="col-sm justify-content-center align-self-center">
-            <a href="http://discord.gigaclub.net">
-                <div class="text-center links" id="discordlink">
-                    Discord
+                <div class="col-sm justify-content-center align-self-center">
+                    <a class="link" href="http://discord.gigaclub.net" target="_blank">
+                        <div class="text-center links" id="discordlink">
+                            Discord
+                        </div>
+                    </a>
                 </div>
-            </a>
+            </div>
+            <div class="row" style="padding-top: 15px">
+                <div class="col">
+                    <div class="text-center" id="mcbox">
+                        <h1>Minecraft Netzwerk</h1>
+                        <p>Im Aufbau</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 15px; padding-bottom: 15px">
+                <div class="col-md-3 justify-content-center align-self-center">
+                    <a class="link" href="https://youtube.com/GigaClub" target="_blank">
+                        <div class="text-center socialbox" id="ytlink">
+                            YouTube
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 justify-content-center align-self-center">
+                    <a class="link" href="https://twitch.tv/GigaClub" target="_blank">
+                        <div class="text-center socialbox" id="twitchlink">
+                            Twitch
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 justify-content-center align-self-center">
+                    <a class="link" href="https://twitter.com/GigaClubNET" target="_blank">
+                        <div class="text-center socialbox" id="twitterlink">
+                            Twitter
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 justify-content-center align-self-center">
+                    <a class="link" href="https://facebook.com/GigaClubNET" target="_blank">
+                        <div class="text-center socialbox" id="fblink">
+                            Facebook
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="text-center text-light">
+                <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a>
+            </div>
+        </div>
+    </footer>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
